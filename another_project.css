@@ -1,0 +1,165 @@
+body{
+	font-size: 1.2em;
+}
+nav{
+	position: sticky;
+	top: 0;
+}
+nav>ul.nav-bar{
+	display : none;
+}
+nav>i.fa{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+nav ul ul{
+	display: none;
+	left : 10%;
+	width : 40%;
+}
+nav>ul>li{
+	width : 30%;
+}
+nav li:hover ul{
+	display : block;
+	position: absolute;
+	left : 30%;
+}
+a{
+	text-decoration: none;
+}
+li{
+	display: block;
+	list-style: none;
+	padding : 2%;
+	border: solid #000000 1px;
+	background : #ff6666;
+}
+nav li li{
+	padding : 5%;
+	font-size: .9em;
+	width : 100%;
+	background: #ff6666;
+}
+li:hover{
+	background: #ffffff;
+}
+footer{
+	padding: 3%;
+	text-align: center;
+	background: #a3b1b1;
+	clear: both;
+}
+footer em{
+	display: block;
+	padding: 1%;
+}
+
+
+
+
+
+@media only screen and (min-width:800px){
+
+nav>ul>li:last-child{
+	display : block;
+}
+nav>ul.nav-bar{
+	display: block;
+}
+nav ul{
+	display: block;
+}
+.mob{
+	display: none;
+}
+nav>i.fa{
+	display : none;
+}
+nav{
+	position: sticky;
+	top: 0;
+  background: #b3b3b3;
+}
+nav>ul{
+	float: none;
+  	padding : 1%;
+  	display: block;
+  	position: static;
+}
+nav li ul{
+  display : none;
+  position : absolute;
+  width: inherit;
+}
+li ul li:first-child{
+  border-top: none;
+}
+nav li:hover ul{
+  display : block;
+  left: auto;
+}
+nav a{
+  text-decoration: none;
+}
+nav>ul>li{
+  list-style: none;
+  display : inline-block;
+  width : 13%;
+  padding : 1%;
+  background : #ff6666;
+  border-radius: 5%;
+  border-right: solid #000000 2px;
+  text-align: center;
+}
+nav>ul>li:last-child{
+  width : 4%;
+  border-radius: 50%;
+}
+li:hover{
+  background : #ffffff;
+}
+nav li ul li{
+	width : 100%;
+  list-style: none;
+  display : block;
+  background : #ff6666;
+  clear: both;
+  padding: 5%;
+  font-size: .9em;
+  border: solid #000000 2px;
+}
+#image{
+    background: url('XX100.jpg');
+    background-position: center;
+    background-size: 100%;
+    margin-right: 3%;
+  	float: right;
+}
+#image>a>.fa{
+  opacity: 0;
+}
+.last{
+  width : 10%;
+  position : absolute;
+  right : 5%;
+}
+section p{
+	display: inline-block;
+	width: 40%;
+	margin: 3%;
+	padding: 2%;
+	float: left;
+	text-align: justify;
+	background: #b3b3b3;
+}
+section img{
+	width 40vw;
+	margin: 4%;
+	display: inline;
+}
+hr{
+	display: none;
+}
+}
