@@ -4,7 +4,7 @@
   "description": "\"Another sample desing\"",
   "main": "another_project.js",
   "scripts": {
-    "start" : "run npm lite",
+    "start" : "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite" : "lite-server"
   },
